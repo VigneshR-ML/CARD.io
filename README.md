@@ -1,6 +1,6 @@
 # Card-IO Flutter App with Docker
 
-This repository contains a Flutter-based Android app, **Card-IO**, built and packaged using Docker. It allows you to easily build and run your Flutter app within a Docker container.
+Card-io is a machine learning-powered Flutter application that utilizes a two-model pipeline. The first model predicts heart rate and body temperature based on inputs such as age, gender, height, and weight. The second model, taking the predicted values along with additional parameters like steps count (from a pedometer), distance traveled, and basic user information, estimates the calories burned. This app leverages advanced regression techniques to deliver real-time health insights.
 
 ## Prerequisites
 
@@ -31,8 +31,6 @@ This guide will help you pull the Docker image and run it, which will automatica
 
 ### 1. Pull the Docker Image
 
-To pull the pre-built Docker image from Docker Hub, run the following command:
-
 ```bash
 docker pull vigneshraiml/card-io:latest
 ```
@@ -46,7 +44,7 @@ docker run -v $(pwd)/build:/app/build -d --name card-io-container vigneshraiml/c
 ### 3. Check the Build Output
 
 ```bash
-ls build
+ls Builded_APK
 ```
 
 # You can check the built APK file in the folder.
