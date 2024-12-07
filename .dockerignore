@@ -1,0 +1,13 @@
+# Flutter specific
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+pubspec.lock
+
+# Build output
+/build
+/.dart_tool
+
+# IDE directories
+.idea
+.vscode
